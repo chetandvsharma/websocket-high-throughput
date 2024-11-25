@@ -1,0 +1,25 @@
+{
+  "name": "websocket-high-throughput",
+  "version": "1.0.0",
+  "main": "cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env cluster.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Chetan Sharma",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "cluster": "^0.7.7",
+    "faker": "^6.6.6",
+    "ioredis": "^5.4.1",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.19.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1"
+  }
+}
